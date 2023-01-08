@@ -8,7 +8,7 @@
     /* height: 64px; */
     font-size: 20px;
     font-weight: 600;
-    padding: 20px 36px;
+    padding: 20px 35px;
     color: #f15b22;
     border: none;
     background-color: #ffffff;
@@ -25,7 +25,7 @@
   }
 
   .header_info{
-    padding: 150px 120px 0 805px;
+    padding: 150px 120px 0 804px;
     text-align: right;
     text-align: justify-all;
   }
@@ -42,10 +42,11 @@
   
     font-size: 16px;
     padding-bottom: 32px;
+    opacity: 0.65;
   }
   .header-button {
     width: 160px;
-    height: 64px;
+    height: 62px;
     background-color: #f15b22;
     color: #ffffff;
     border: 0;
@@ -99,7 +100,7 @@
     color: #657870;
   }
   
-  .icon {
+  .icons {
     color: #16d887;
   }
   /* my plans */
