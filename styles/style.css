@@ -23,7 +23,8 @@
     justify-content: end;
     background: url("../images/banner/banner1.png");
   }
-  .header-part {
+
+  .header_info{
     padding: 150px 120px 0 805px;
     text-align: right;
     text-align: justify-all;
@@ -58,27 +59,26 @@
   }
   
   /* my-failures */
-  .my-failures {
+  .failures {
     display: flex;
     margin-top: 130px;
   }
-  .my-failures-img {
-    max-width: 569px;
-    max-height: 723px;
-    /* background-color: #f15b22;
-    border-radius: 75%; */
+  .failures-img {
+    max-width: 568px;
+    max-height: 722px;
+  
   }
   
-  .sub-my-failures {
+  .sub-failures {
     /* padding-top: 330px; */
     padding: 330px 0px 170px 0;
   }
-  .my-failures-title {
+  .failures-title {
     font-size: 40px;
     font-weight: 700;
     padding-bottom: 24px;
   }
-  .my-failures-description {
+  .failures-description {
     font-style: normal;
     font-size: 16px;
     line-height: 25px;
@@ -103,14 +103,14 @@
     color: #16d887;
   }
   /* my plans */
-  .my-plans-title {
+  .plans-title {
     text-align: center;
     font-weight: 700;
     font-size: 40px;
   
     margin-bottom: 55px;
   }
-  .my-plans-info-container {
+  .plans-info-container {
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -119,9 +119,9 @@
   .plan-title {
     font-weight: 700;
     font-size: 30px;
-    line-height: 35px;
+    line-height: 34px;
     color: #151414;
-    padding-top: 15px;
+    padding-top: 14px;
   }
   .plan-description {
     padding-top: 15px;
@@ -133,8 +133,8 @@
     height: 260px;
     background: linear-gradient(
         135deg,
-        hsla(0, 100%, 48%, 0.75),
-        hsla(338, 40%, 63%, 0.55)
+        hsla(0, 97%, 40%, 0.75),
+        hsla(338, 56%, 70%, 0.55)
       ),
       url("../images/watch.png");
     background-size: cover;
@@ -176,14 +176,14 @@
   .footer-email {
     padding: 25px 0;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
     color: #ffffff;
   }
   .footer-phone {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
     color: #ffffff;
-    padding-bottom: 32px;
+    padding-bottom: 31px;
   }
   .container-info img {
     direction: none;
